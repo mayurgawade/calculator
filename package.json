@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This project demonstrates a simple calculator supporting basic operations: \r - Addition\r - Subtraction\r - Multiplication\r - Division",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },

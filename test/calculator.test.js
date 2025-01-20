@@ -1,5 +1,5 @@
-const { expect } = require('chai');
-const Calculator = require('../src/calculator');
+import { expect } from 'chai';
+import Calculator from '../src/calculator.js';
 
 describe('Calculator', function() {
   describe('#add()', function() {
