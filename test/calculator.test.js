@@ -20,4 +20,11 @@ describe('Calculator', function() {
       expect(result).to.equal(2);
     });
   });
+
+  describe('#multiply()', function() {
+    it('should return the product of two numbers', function() {
+      const result = calculator.multiply(2, 3);
+      expect(result).to.equal(6);
+    });
+  });
 });
