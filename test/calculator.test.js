@@ -27,4 +27,14 @@ describe('Calculator', function() {
       expect(result).to.equal(6);
     });
   });
+  describe('#divide()', function() {
+    it('should return the quotient of two numbers', function() {
+      const result = calculator.divide(6, 3);
+      expect(result).to.equal(2);
+    });
+
+    it('should throw an error when dividing by zero', function() {
+      expect(() => calculator.divide(6, 0)).to.throw('Cannot divide by zero');
+    });
+  });
 });
